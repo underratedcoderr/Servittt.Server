@@ -1,0 +1,22 @@
+{
+  "name": "payment-backend",
+  "version": "1.0.0",
+  "description": "Payment with razorpay backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "MS Dhoni Academy",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.6.0",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "paytmchecksum": "^1.5.0",
+    "razorpay": "^2.9.2",
+    "shortid": "^2.2.16"
+  }
+}
